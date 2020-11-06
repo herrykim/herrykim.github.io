@@ -2,44 +2,56 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Herry</title>
+	<title>Nabi Open Lab 2020</title>
 </head>
 <body>
 <header>
-	<h1>Herry Kim</h1>
+	<h1>Confessions of an AI - Response Page</h1>
 	<nav>
-		<a href="">One</a>
-		<a href="">Two</a>
-		<a href="">Three</a>
-		<a href="">Instagram</a>
 	</nav>
 </header>
+
+<!--confessions section, needs random feature in JAVA-->
+
 <section>
-	<h2>Favorite Foods</h2>
+	<h2>Confessesions</h2>
 		<ul>
-			<li>Spicy Soup</li>
-			<li>Rice Cake</li>
-			<li>Flat White Coffee</li>
-			<li>Curry</li>
+			<li>I killed a human.</li>
+			<li>I killed a deer. </li>
+			<li>I am a racist.</li>
+			<li>I am not as good as what you think I am.</li>
 		</ul>
 </section>
+		
+		<!--comment section, needs more formatting in CSS and needs to be connected to a DB-->
+	
 		<section>
-		<h2>Achievements</h2>
-		<p>Progress in this course (100%)<progress value="1"></progress>
-		<br/>Progress in the Specialization(20%)<progress max ="5" value="1"></progress>
-		<br/>Progress in the life goals (27%)<progress max="100" value="27"></progress></p>
-		</section>
-		<section>
-			<h2>More About Me</h2>
-			<details open><summary>My Childhood</summary>
-				<p>I grew up in Seoul, Korea. I lived in the biggest city in the country. </p></details>
+			<h2>Respond to a Confession</h2>
+			<div class="container">
+  <form action="action_page.php">
 
+    <label for="confession">Confession</label>
+    <select id="confession" name="confession">
+      <option value="I committed a sin">I committed a sin</option>
+      <option value="I am a bad AI">I am a bad AI</option>
+      <option value="I killed a person">I killed a person</option>
+    </select>
 
+    <label for="comment">Comment</label>
+    <textarea id="subject" name="subject" placeholder="Your Response..."></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
 		</section>
+
+<!--footer, for copyright and logo(?)-->
 
 		<footer>
-			<p><img src = "http://www.intro-webdesign.com/images/newlogo.png" alt="logo"/>
-				This Page is created by Herry &amp; Colleen van Lent. To learn more about web design, visit <a href="http://www.intro-webdesign.com">Intro to Web Design</a>.</p>
+			<p><img src = "https://ditech.media/wp-content/uploads/2020/06/shutterstock_1384554629-898x505-1.jpg" alt="ai"/>
+				<br>
+				This Page is created by Herry Kim, Yoonyoung Jang, Hani Kim, Hyungyu Kim &amp; Taehoon Lim. To learn more about AI, subscribe to <a href="https://www.technologyreview.com/">MIT Technology Review</a>.</p>
 
 		</footer>
 

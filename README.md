@@ -1,2 +1,2 @@
 # herrykim.github.io
-Web Design class 
+2020 Nabi Open Lab

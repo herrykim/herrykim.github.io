@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to my new blog"
-permalink: /_posts/
+categories: jekyll update
 ---
 
 # Welcome

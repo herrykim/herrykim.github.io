@@ -28,7 +28,7 @@ twitter_username: theherrykim
 github_username:  herrykim
 
 # Build settings
-remote_theme: jekyll-shell-theme
+remote_theme: "tareqdandachi/jekyll-shell-theme"
 plugins:
   - jekyll-feed
 

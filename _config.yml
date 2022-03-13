@@ -28,7 +28,7 @@ twitter_username: theherrykim
 github_username:  herrykim
 
 # Build settings
-theme: minima
+remote_theme: jekyll-shell-theme
 plugins:
   - jekyll-feed
 
